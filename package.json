@@ -1,0 +1,39 @@
+{
+  "name": "kerplunk-irc-where",
+  "displayName": "IRC Location Responder",
+  "description": "Respond with last known location when asked",
+  "version": "0.0.1",
+  "kerplunk": {
+    "dependencies": [
+      "kerplunk-irc",
+      "kerplunk-location-history"
+    ],
+    "permissions": {
+      "plugins": [
+        "kerplunk-irc",
+        "kerplunk-location-history"
+      ]
+    }
+  },
+  "keywords": [
+    "kerplunk-plugin",
+    "kp:IRC"
+  ],
+  "engines": {
+    "node": ">=0.10"
+  },
+  "main": "./lib/irc-where.js",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "glut": "0.0.1",
+    "glut-coffee-amdify": "0.0.0",
+    "gulp": "^3.8.8",
+    "gulp-coffee": "^2.3.1"
+  },
+  "scripts": {
+    "prepublish": "rm -rf ./lib ./public && gulp"
+  }
+}
