@@ -24,7 +24,7 @@
   },
   "main": "./lib/irc-where.js",
   "dependencies": {
-    "lodash": "^3.10.0"
+    "lodash": "^4.6.1"
   },
   "devDependencies": {
     "coffee-script": "^1.9.1",
