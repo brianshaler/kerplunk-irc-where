@@ -2,7 +2,7 @@
   "name": "kerplunk-irc-where",
   "displayName": "IRC Location Responder",
   "description": "Respond with last known location when asked",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "kerplunk": {
     "dependencies": [
       "kerplunk-irc",
